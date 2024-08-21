@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.rar filter=lfs diff=lfs merge=lfs -text
+BG-jebouquine.rar filter=lfs diff=lfs merge=lfs -text
+~config filter=lfs diff=lfs merge=lfs -text
+http.postBuffer filter=lfs diff=lfs merge=lfs -text
+524288000 filter=lfs diff=lfs merge=lfs -text
